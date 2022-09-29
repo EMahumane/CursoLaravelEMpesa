@@ -24,14 +24,14 @@ class TestController extends Controller
         // The e2payments is REST API based platform
         // find or create your credential from: https://e2payments.explicador.co.mz/admin/credentials
 
-        $client_id = '97622d96-a715-4ed3-8568-5e43cbb55b91'; //you must change
-        $client_secret = 'gliOIhNlhWduzuBnRPgbC6S22AZ72CNF9P7MSz79'; //you must change
+        $client_id = '97622d96-a715-4ed3-8568....'; //you must change
+        $client_secret = 'gliOIhNlhWduzuBnR...'; //you must change
 
         // find your wallet_id from: https://e2payments.explicador.co.mz/admin/mpesa
         // or in the organizations where you were invited
         // The wallet_id starts by (#), insert here without (#)
 
-        $wallet_id = '704203'; //you must change
+        $wallet_id = '111111'; //you must change
 
         // SDK initiation for mpesa transaction
         $mpesa = new Mpesa([
