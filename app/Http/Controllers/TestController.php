@@ -40,8 +40,8 @@ class TestController extends Controller
             'wallet_id'     => $wallet_id,
         ]);
 
-        $phone_number = '843015137';
-        $amount = '10';
+        $phone_number = '848761489';
+        $amount = '100';
         $reference = 'TestPagamento';
 
         //This creates transaction between an M-Pesa short code to a phone number registered on M-Pesa.
